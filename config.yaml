@@ -4,19 +4,44 @@ baseURL: http://localhost:1313
 languageCode: en
 menu:
   main:
-    - name: Welcome
-      url: /welcome
+    - name: Categories
+      url: /categories
       weight: 1
-    - name: Articles
-      url: /categories/articles
+
+    - name: Series
+      url: /series
       weight: 2
-    - name: Reviews
+    
+    - name: Tags
+      url: /tags
       weight: 3
-      url: /categories/reviews
-    - name: Contact
+    
+    - name: About
+      url: /about
       weight: 4
-      url: /categories/contact
+
+    - name: RSS
+      weight: 5
+      url: /rss
+
 params:
   description: Exploring Theory and Practice in Reformed Theology
 title: Theoretico-Practica
 theme: Blogpaper
+
+mediaTypes:
+  application/rss+xml:
+    suffixes: []
+
+
+outputFormats:
+  RSS:
+    mediatype: application/rss+xml
+    baseName: rss
+
+taxonomies:
+  series: series
+  category: categories
+  tag: tags
+
+googleAnalytics: UA-141673747-2

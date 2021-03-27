@@ -1,0 +1,5 @@
+/public
+node_modules
+themes/Blogpaper/package-lock.json
+package-lock.json
+themes/Blogpaper/static/css/style.css
