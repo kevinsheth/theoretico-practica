@@ -7,21 +7,17 @@ menu:
     - name: Categories
       url: /categories
       weight: 1
-
-    - name: Series
-      url: /series
-      weight: 2
     
     - name: Tags
       url: /tags
-      weight: 3
+      weight: 2
     
     - name: About
       url: /about
-      weight: 4
+      weight: 3
 
     - name: RSS
-      weight: 5
+      weight: 4
       url: /rss
 
 params:
@@ -40,7 +36,6 @@ outputFormats:
     baseName: rss
 
 taxonomies:
-  series: series
   category: categories
   tag: tags
 
