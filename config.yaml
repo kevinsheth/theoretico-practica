@@ -1,0 +1,22 @@
+author:
+  name: Kevin Sheth
+baseURL: http://localhost:1313
+languageCode: en
+menu:
+  main:
+    - name: Welcome
+      url: /welcome
+      weight: 1
+    - name: Articles
+      url: /categories/articles
+      weight: 2
+    - name: Reviews
+      weight: 3
+      url: /categories/reviews
+    - name: Contact
+      weight: 4
+      url: /categories/contact
+params:
+  description: Exploring Theory and Practice in Reformed Theology
+title: Theoretico-Practica
+theme: Blogpaper
