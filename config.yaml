@@ -1,6 +1,6 @@
 author:
   name: Kevin Sheth
-baseURL: http://localhost:1313
+baseURL: https://theoretico-practica.com/
 languageCode: en
 menu:
   main:
